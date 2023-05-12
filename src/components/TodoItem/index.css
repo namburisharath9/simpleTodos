@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vw;
+}
+.description {
+  color: #000000;
+  font-family: 'Roboto';
+  height: 5vh;
+  width: 45vw;
+  font-weight: 500;
+}
+.button {
+  color: #ff0b37;
+  border: 2px solid #ff0b37;
+  background-color: transparent;
+  height: 5vh;
+  width: 15vh;
+  border-radius: 5px;
+  font-weight: bold;
+}
