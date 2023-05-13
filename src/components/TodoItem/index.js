@@ -1,8 +1,8 @@
 // Write your code here
 
 const TodoItem = props => {
-  const {tododetails, deleteUser} = props
-  const {id, title} = tododetails
+  const {todoDetails, deleteUser} = props
+  const {id, title} = todoDetails
 
   const onDelete = () => {
     deleteUser(id)
