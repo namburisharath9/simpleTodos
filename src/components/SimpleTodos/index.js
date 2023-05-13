@@ -44,6 +44,7 @@ class SimpleTodos extends Component {
   state = {todosList: initialTodosList}
 
   deleteUser = id => {
+    const {todoList} = this.state
     const filteredTodoList = todosList.filter(
       eachTodoItem => eachTodoItem.id !== id,
     )
@@ -51,6 +52,7 @@ class SimpleTodos extends Component {
   }
 
   render() {
+    const {todoList} = this.state
     return (
       <div className="bg-container">
         <div className="simple-todos">
