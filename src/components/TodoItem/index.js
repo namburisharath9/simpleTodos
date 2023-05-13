@@ -4,7 +4,7 @@ const TodoItem = props => {
   const {tododetails, deleteUser} = props
   const {id, title} = tododetails
 
-  onDelete = () => {
+  const onDelete = () => {
     deleteUser(id)
   }
 
